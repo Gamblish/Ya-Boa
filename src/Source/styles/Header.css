@@ -1,0 +1,82 @@
+
+  
+  .Header{
+	  width: 100%;
+	  display: flex;
+	  flex-direction: column;
+  }
+  .UpperHeader{
+	  width: 100%;
+	  display: flex;
+	  flex-direction: row;
+	  
+  }
+  .LogoBox{
+	  width: 15vmax;
+	  padding-top: 8px;
+  }
+  .SecondUpperPart{
+	
+	width: 25vmax;
+	text-align: left;
+	font-size: 1vmax;
+	margin-left: 6vw;
+	
+  }
+ .City{
+	 padding-top: 15px;
+	 font-weight: 600;
+	 width: 100%;
+	 font-size: 1.23vmax;
+ }
+.City__Name{
+	color:#FF2E65;
+}
+.DeliveryTime{
+	margin-top: 0.8vh;
+	font-size: 1vmax;
+	font-weight: 500;
+}
+.DeliveryTime__Dot{
+	font-size: 1vmax;
+	font-weight: 800;
+	color: #FF2E65;
+}
+  .ThirdUpperPart{
+	  margin-left: 8vw;
+	  width: 30vw;
+	  display: flex;
+	  flex-direction: row;
+	  align-items: center;
+	  padding-top: 14px;
+  }
+  .ThirdUpperPart__Number{
+	  color:#FF2E65;
+	  text-align: left;
+	  width: 17vw;
+	  margin-left: 1.5vw;
+	  font-size: 1.5vmax;
+  }
+
+  .ThirdUpperPart__Button{
+	  color:#696F7A;
+	  background-color: #F3F3F7;
+	  font-size: 1vmax;
+	  width: 12vw;
+	  height: 3vmax;
+	  border-radius: 17px;
+	  
+  }
+  @media  (max-width:767px){
+
+	.SecondUpperPart{
+		visibility: hidden;
+
+		
+	  
+	  
+	}
+	.ThirdUpperPart{
+		visibility: hidden;
+	}
+  }
