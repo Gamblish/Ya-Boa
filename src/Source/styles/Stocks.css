@@ -1,0 +1,49 @@
+.StocksContainer{
+	height: 28.2vw;
+	width: 100%;
+	display: flex;
+
+}
+
+.StocksHeader{
+	display: block;
+	margin-bottom: 3.26vw;
+	font-weight: 700;
+	font-size: 3.06vw;
+
+}
+
+.StocksHeaderLastChild {
+	color: #FF2E65;
+}
+
+
+.StocksContainer__MainStock{
+	height: 100%;
+	width: 37.6vw;
+	margin-right: 2.01vw;
+	border-radius: 1.4vw;
+}
+.StocksContainer__MainStock img{
+	height: 100%;
+	width:100%
+}
+
+.StocksContainer__OtherStocksContainer{
+	display: grid;
+	grid-gap: 1.875vw 1.875vw;
+	grid-template-columns:  17.8vw 17.8vw ;
+	
+}
+
+.StocksButton{
+	margin-top: 3.37vw;
+	width: 11.11vw;
+	height: 3vw;
+	background-color: #FF2E65;
+	border-radius: 1.6vw;
+	font-size: 0.97vw;
+	font-weight: 600;
+	color: white;
+}
+

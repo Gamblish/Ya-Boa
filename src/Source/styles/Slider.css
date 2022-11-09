@@ -1,0 +1,56 @@
+.SliderContainer{
+	width: 100vw;
+	height: 59.26vh;
+	margin-left: -10vw;
+	
+	overflow: hidden;
+}
+
+
+.SliderContainer__Slider{
+	position: absolute;
+	display: flex;
+	
+	width: 80vw;
+	height: 59.26vh;
+	margin-left: -65vw;
+	flex-direction: row;
+	overflow: hidden;
+	
+	
+	
+}
+
+.SliderContainer__Slider__MainSlide{
+	width: 80vw;
+	height: 30vw;
+	margin-left: 5vw;
+	
+	
+	background: no-repeat;
+}
+
+.SliderContainer__Slider__MainSlide img{
+	image-rendering: auto;
+	
+	object-fit: contain;
+	width: 80vw;
+	height: 100%;
+}
+.SliderContainer__Slider__Slide{
+	height: 26.12vw;
+	width: 59.65vw;
+	margin-top: 1.11vw;
+	
+	
+	
+	
+
+}
+
+.SliderContainer__Slider__Slide img{
+	height: 100%;
+	
+	
+
+}

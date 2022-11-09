@@ -1,0 +1,74 @@
+.Home{
+	margin-top: 1.94vw;
+	
+	
+}
+
+.Home__ProductContainer{
+	width: 100%;
+	grid-gap: 3.33vw 2.94vw;
+	display:grid;
+	margin-top: 2.29vw;
+	z-index: 1000;
+	
+	
+	grid-template-columns: 17.8vw 17.8vw 17.8vw 17.8vw;
+	
+
+}
+
+
+
+.ProductsType{
+	font-size: 2.08vw;
+	font-weight: 700;
+	color:#FF2E65;
+	text-align: left;
+	display: flex;
+	margin-top: 3.54vw;
+	margin-bottom: 1.6vw;
+
+}
+.NoveltiesContainer{
+	height: 6.9vw;
+	display: grid;
+	grid-template-columns: 17vw 17vw 17vw 17vw;
+	margin-top: 2.3vw;
+	justify-content: space-between;
+	position: relative;
+	
+
+	
+
+}
+.NoveltiesHeader{
+	text-align: left;
+	display: flex;
+	font-size: 1.67vw;
+	font-weight: 600;
+	margin-top: 10vw;
+
+}
+.Cactus{
+    position: absolute;
+    
+    
+    height: 13.3vw;
+    width: 7vw;
+	margin-left: -4vw;
+	margin-top: -1vw;
+	
+	
+    
+    
+
+    
+
+}
+.Cactus img{
+	image-rendering: auto;
+	height: 100%;
+
+	width: 100%;
+	
+}

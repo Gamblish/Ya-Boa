@@ -1,0 +1,75 @@
+.NoveltiesBox{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	flex-direction: row;
+	border-radius: 0.83vw;
+	background-color: #FFFFFF;
+	
+
+	height: 6.875vw;
+	width: 17.7vw;
+	
+	position: relative;
+	z-index: 100000000000;
+	
+
+}
+
+.NoveltiesBox__ImgBox{
+	height: 4.93vw;
+	width: 4.93vw;
+	
+	
+	margin-left: 1.18vw;
+}
+
+.NoveltiesBox__Imgbox__Img{
+	image-rendering: auto;
+	
+	object-fit: contain;
+	width: 100%;
+	box-sizing: border-box;
+	
+	border:none;
+	
+}
+
+.NoveltiesBox__Properties{
+	border: black 10px;
+	width: 7.43vw;
+	height: 3.19vw;
+	margin-top: 2.01vw;
+	margin-bottom: 1.7vw;
+	margin-left: 1.74vw;
+	display:flex;
+	flex-direction: column;
+	text-align: left;
+	
+}
+
+.NoveltiesBox__Properties__ProductTitle{
+	font-size: 1.25vw;
+	font-weight: 600;
+
+
+}
+
+.NoveltiesBox__Properties__Price{
+	margin-top: 0.4vw;
+	font-size: 1.11vw;
+	font-weight: 600;
+	color:#FF2E65;
+	text-align: left;
+}
+
+.NoveltiesBox__Shadow{
+	box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	border-radius: 0.83vw;
+
+}
+	
+

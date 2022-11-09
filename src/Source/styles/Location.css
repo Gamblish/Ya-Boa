@@ -1,0 +1,68 @@
+.LocationContainer{
+	width: 100vw;
+	background-color: #E3ECF5;
+	margin-top: 4.31vw;
+	height: 47.77vw;
+	margin-left: -10vw;
+	padding-top: 3.89vw;
+}
+
+.LocationContainer__Header{
+	color: #FF2E65;
+	font-weight: 600;
+	font-size: 2.08vw;
+	
+
+
+	
+}
+
+
+
+
+.LocationContainer__InfoContainer{
+	margin-top: 2.43vw;
+
+
+	width: 80vw;
+	height: 9.17vw;
+	margin-left: 10vw;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.LocationContainer__InfoContainer__Products{
+	width: 17.7vw;
+	height: 7.22vw;
+	background-color: #fff;
+	box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.03);
+	border-radius: 14px;
+	display: flex;
+	flex-direction: column;
+	
+
+
+	
+}
+.LocationContainer__InfoContainer__Products__Info{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin-top: 2.99vw;
+	font-size: 0.97vw;
+	font-weight: 600;
+	
+	
+}
+
+.LocationContainer__InfoContainer__Products__Picture{
+	position: absolute;
+	left: 17.3vw;
+	
+	
+
+}
+.LocationContainer__InfoContainer__Products__Picture img{
+
+}

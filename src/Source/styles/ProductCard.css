@@ -1,0 +1,96 @@
+.ProductCard__Product{
+	
+	height: 100%;
+	width: 17.75vw;
+	display: flex;
+	flex-direction: column;
+	justify-content:stretch;
+	
+	
+	
+	
+}
+
+.ProductCard__Product__Picture{
+	image-rendering: auto;
+	margin-bottom: 0.5vw;
+	
+	object-fit: cover;
+	width: 99%;
+	box-sizing: border-box;
+	
+	border:none;
+}
+
+.ProductCard__Product__Properties__Name{
+	font-size: 1.67vmax;
+	font-weight: 700;
+	text-align: left;
+	line-height: 1.2em;
+	
+
+}
+
+.ProductCard__Product__Properties__Desk{
+	margin-top: 1.25vmax;
+	font-size: 0.9vmax;
+	font-weight: 500;
+	color: #686466;
+	text-align: left;
+	line-height: 1.32vmax;
+	align-self: center;
+	
+	
+	
+	
+	margin-bottom: 2.56vh;
+	
+	
+}
+
+.ProductCard__Footer{
+
+	
+	display: flex;
+	justify-content:space-between;
+	flex-direction: row;
+	align-items: center;
+	
+	
+
+
+
+}
+
+.ProductCard__Footer__Price{
+	font-size: 1.53vw;
+	font-weight: 600;
+}
+
+.ProductCard__Footer__Button{
+	background: #FF2E65;
+	font-size: 0.9vw;
+	color: #FFFFFF;
+	font-weight: 600;
+	border-radius: 23px;
+	width: 8.75vw;
+	height: 2.5vmax;
+
+}
+
+.ProductCard{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 3.54vw;
+	
+	width: 17.75vw;
+	
+	
+	
+	
+	
+	
+
+}
+

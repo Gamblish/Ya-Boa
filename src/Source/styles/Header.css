@@ -9,22 +9,28 @@
 	  width: 100%;
 	  display: flex;
 	  flex-direction: row;
-	  
+	  padding-top: 1.04vh;
   }
   .LogoBox{
 	  width: 15vmax;
-	  padding-top: 8px;
+	  
+	 
+	  
   }
   .SecondUpperPart{
+	
+
+	align-items: center;
 	
 	width: 25vmax;
 	text-align: left;
 	font-size: 1vmax;
 	margin-left: 6vw;
+	padding-top: 1.04vh;
 	
   }
  .City{
-	 padding-top: 15px;
+	 
 	 font-weight: 600;
 	 width: 100%;
 	 font-size: 1.23vmax;
@@ -33,9 +39,10 @@
 	color:#FF2E65;
 }
 .DeliveryTime{
-	margin-top: 0.8vh;
+	margin-top: 0.69vw;
 	font-size: 1vmax;
 	font-weight: 500;
+	
 }
 .DeliveryTime__Dot{
 	font-size: 1vmax;
@@ -48,14 +55,17 @@
 	  display: flex;
 	  flex-direction: row;
 	  align-items: center;
-	  padding-top: 14px;
+	  
+	  
   }
   .ThirdUpperPart__Number{
 	  color:#FF2E65;
 	  text-align: left;
 	  width: 17vw;
-	  margin-left: 1.5vw;
-	  font-size: 1.5vmax;
+	  margin-left: 1.94vw;
+	  font-size: 2vw;
+	  white-space: nowrap;
+	  font-weight: 700;
   }
 
   .ThirdUpperPart__Button{
@@ -65,8 +75,107 @@
 	  width: 12vw;
 	  height: 3vmax;
 	  border-radius: 17px;
+	  transition: color .3s;
 	  
   }
+
+  .ThirdUpperPart__Button:hover{
+	  color:black;
+
+  }
+ 
+  
+  .LowerHeader{
+	
+	width: 100%;
+	margin-top: 2.6vh;
+	display: flex;
+	flex-direction: row;
+	
+	align-items: center;
+  }
+  .LowerHeader__List{
+	  width: 73%;
+	  
+	  justify-content: space-between;
+	  
+	  display: flex;
+	  align-items: flex-start;
+	  flex-direction: row;
+	  font-size: 1.04vw;
+	  font-weight: 500;
+	  
+  }
+
+  .LowerHeader__List li a{
+	  text-decoration: none;
+	  color:black;
+	  transition: color .2s;
+  }
+  .LowerHeader__List li a:hover{
+	  color:#FF2E65;
+  }
+
+  .LowerHeader__LoginButton{
+	  margin-left: 4.1vw;
+	  background: none;
+	  border:none;
+	  color:#696F7A;
+	  width: 3.75vw;
+	  height: 1.94vw;
+	  font-size: 1.11vw;
+	  font-weight: 600;
+	  align-items: flex-start;
+	  transition: transform .4s;
+
+  }
+  .LowerHeader__LoginButton:hover{
+	  transform: scale(1.08);
+  }
+
+  .LowerHeader__Cart{
+	  height:2.92vw;
+	  width: 11.1vw;
+	  margin-left: 2.08vw;
+	  background: #FF2E65;
+	  border-radius: 9px;
+	  color: white;
+	  
+	  display: flex;
+	  
+	  align-items: center;
+	  text-align: center;
+
+	  
+	
+	  
+
+  }
+  
+  .LowerHeader__Cart__CartText{
+	  display: block;
+	  margin-left: 1.74vw;
+	  font-weight:500;
+	  font-size: 1.11vw;
+	 
+  }
+
+  .LowerHeader__Cart__Number{
+	margin-left: 1.25vw;
+	font-size: 1.11vw;
+
+  }
+  .LowerHeader__Cart__CartStick{
+	margin-left: 0.76vw;
+	margin-top: 0.06vw;
+	width: 0.14vw;
+	height: 1.6vw;
+	
+	
+	
+
+  }
+
   @media  (max-width:767px){
 
 	.SecondUpperPart{
@@ -79,4 +188,15 @@
 	.ThirdUpperPart{
 		visibility: hidden;
 	}
+  }
+
+  @media (max-width:800px) {
+  .App{
+	  
+
+  }
+  .ThirdUpperPart{
+	  margin-left: auto;
+  }
+
   }
